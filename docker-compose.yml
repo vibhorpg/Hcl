@@ -3,7 +3,7 @@ version: "3"
 services:
 
   django:
-    image: django_image
+    image: django_server
     container_name: django_server
     build:
       context: .
