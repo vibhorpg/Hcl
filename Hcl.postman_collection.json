@@ -1,0 +1,214 @@
+{
+	"id": "948cc0f6-4ae2-0d56-3461-78647b658d6d",
+	"name": "Hcl",
+	"description": "",
+	"order": [
+		"06dfc91e-4887-3f60-22f5-060322b0613c",
+		"44f11e74-7995-6d6d-0b21-4665ecc70448",
+		"9efe74c0-7e57-b962-ec20-6ac6ace8e3b4",
+		"7ac0d4ba-3a45-f459-468f-738ec37b4d43",
+		"526761a5-c333-318c-277f-d6afca4c42fe",
+		"3435f82d-6879-932a-acf1-b67708826006"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1592640500297,
+	"owner": "7102579",
+	"public": false,
+	"requests": [
+		{
+			"id": "06dfc91e-4887-3f60-22f5-060322b0613c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:82/employee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592673434460,
+			"name": "List all employee",
+			"description": "",
+			"collectionId": "948cc0f6-4ae2-0d56-3461-78647b658d6d",
+			"responses": []
+		},
+		{
+			"id": "3435f82d-6879-932a-acf1-b67708826006",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:82/employee/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592673282851,
+			"name": "Delete employee",
+			"description": "",
+			"collectionId": "948cc0f6-4ae2-0d56-3461-78647b658d6d",
+			"responses": []
+		},
+		{
+			"id": "44f11e74-7995-6d6d-0b21-4665ecc70448",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:82/employee?page_size=2&page=1&ordering=id",
+			"queryParams": [
+				{
+					"key": "page_size",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ordering",
+					"value": "id",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592673563948,
+			"name": "List employee with Ordering and pagination",
+			"description": "",
+			"collectionId": "948cc0f6-4ae2-0d56-3461-78647b658d6d",
+			"responses": []
+		},
+		{
+			"id": "526761a5-c333-318c-277f-d6afca4c42fe",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:82/employee/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "Vibhor",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "last_name",
+					"value": "Gupta",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "vibhor@gmail.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592673049937,
+			"name": "Update employee",
+			"description": "",
+			"collectionId": "948cc0f6-4ae2-0d56-3461-78647b658d6d",
+			"responses": []
+		},
+		{
+			"id": "7ac0d4ba-3a45-f459-468f-738ec37b4d43",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:82/employee/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "fname10",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "last_name",
+					"value": "lname10",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "fname.lname10@gmail.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592673420289,
+			"name": "Save employee",
+			"description": "",
+			"collectionId": "948cc0f6-4ae2-0d56-3461-78647b658d6d",
+			"responses": []
+		},
+		{
+			"id": "9efe74c0-7e57-b962-ec20-6ac6ace8e3b4",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:82/employee/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592673061259,
+			"name": "Get single employee",
+			"description": "",
+			"collectionId": "948cc0f6-4ae2-0d56-3461-78647b658d6d",
+			"responses": []
+		}
+	]
+}
