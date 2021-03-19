@@ -10,7 +10,7 @@ django-excel-response2==3.0.2
 django-filter==2.3.0
 django-rest-auth==0.9.5
 django-six==1.0.4
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 Faker==4.1.1
 idna==2.9
 marshmallow==3.6.0
